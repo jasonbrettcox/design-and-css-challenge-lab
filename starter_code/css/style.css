@@ -79,6 +79,7 @@ footer {
 text-align: center;
 background-color: black;
 color: white;
+padding: 40px;
 }
 
 h1 {
@@ -91,14 +92,15 @@ h1 {
   
 }
 h2 {
-  font-weight: 600;
+  font-weight: 500;
   font-size: 24px;
   color:white;
   
 }
 h3{
-  font-weight: 600;
-  font-size: 20px;
+  font-weight: 800;
+  font-size: 24px;
+  padding-top: 30px;
 
 }
 button{
@@ -132,29 +134,47 @@ ul{
 .personalAssistant{
   font-weight: 300;
   font-size: 13px;
-  padding: 40px;
+  padding: 30px;
   width:400px;
-  margin: 30px, 0, 30px, 30px;
+  margin: 30px, 0, 30px, 60px;
 
 }
 .personalAssistant2{
 font-weight: 300;
   font-size: 13px;
+  padding: 10px 10px 10px 20px;
+  width:310px;
+  margin: 30px, 0, 30px, 80px;
+  }
+  .personalAssistant3{
+
+font-weight: 300;
+  font-size: 13px;
+  padding: 0px 0px 40px 80px;
+  width:230px;
+  margin: 30px, 0, 30px, 60px;
+  }
+.benefitsHeadline{
+   
+font-weight: 300;
+  font-size: 13px;
   padding: 10px;
   width:240px;
-  margin: 30px, 0, 30px, 30px;
+  margin: 30px, 0, 30px, 60px;
+  }
 }
 .Amanda{
-  font-weight: 300; 
+  font-weight: 100; 
   font-style: italic;
   font-size: 18px;
   
 }
 .Amanda2{
-  font-weight: 600;
+  font-weight: 500;
   font-size: 18px;
   color:white;
   text-align:center;
+  font-style: normal;
 }
 .SignUpNowButton{
   font-weight: 800; 
@@ -169,6 +189,10 @@ background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134,141,1
   color:white;
   /*height: 150px;*/
   background-size: cover;
+  font-weight: 300; 
+  font-style: italic;
+  font-size: 18px;
+  height: 200;
   
 }
 
@@ -177,12 +201,15 @@ background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134,141,1
   text-align:center;
   margin: auto;
   padding: 30px 0px 20px 0px;
+   font-weight: 300; 
+  font-style: italic;
+  font-size: 18px;
   
 }
 .signUp{
   background-color: #f9e42e;
   height: 35px;
-  padding: 10px;
+  padding: 15px;
   text-align: center;
 }
 
@@ -197,18 +224,30 @@ background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134,141,1
   background-color: black;
   color: #f9e42e;
   text-align: center;
-  height: 100px;
-  padding-top: 30px;
+  height: 110px;
+  padding: 60px, 0px, 40px, 50px;
+  font-style: normal;
+  font-weight: 800;
 
 
 
+
+}
+.relaxrFacebook{
+padding-top: 30px, 0px, 40px, 50px;
+/*float: left;*/
+}
+.relaxrTwitter{
+  padding-top: 30px, 0px, 40px, 50px;
+  float: right;
 }
 .firstButton {
   padding-top: 30px;
 
 }
 .footerLinks {
-  padding: 15px;
+  padding: 25px;
+  height:40px;
 
 
 }
